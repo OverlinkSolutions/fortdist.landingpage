@@ -1,0 +1,21 @@
+.header-container {
+    background: #006400;
+    color: #f1f1f1;
+    display: flex;
+    z-index: 9999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999px;
+}
+
+.header-item-container {
+    margin: 0px 4px;
+    cursor: pointer;
+    padding: 4px;
+}
+
+.menu-icon {
+    cursor: pointer;
+}

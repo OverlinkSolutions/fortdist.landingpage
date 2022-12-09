@@ -1,0 +1,16 @@
+.front-container { 
+  height: 90vh;
+  overflow: hidden;
+  max-height: 1300px;
+  background-color: #00005e; 
+  color: #FFF;
+  background-image: url('../../assets/banner1.jpg');
+  background-size: cover;
+  background-position:center;
+  z-index: 5;
+  padding-top: 65px;
+}
+
+.inner-container {
+  padding: 32px 0px;
+}
