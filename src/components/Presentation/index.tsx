@@ -37,7 +37,6 @@ export function Presentation() {
           <ButtonContact />
         </div>
 
-
         <div className="col-md-6 col-sm-12">
           <img
             className="rounded img-fluid"
