@@ -16,6 +16,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-size: 16px;
   font-scale: 1.2;
+  background-color: #303937;
+  color: white;
 }
 
 h1 {
