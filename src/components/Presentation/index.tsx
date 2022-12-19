@@ -7,17 +7,20 @@ import fountain from '../../assets/fountain.png';
 import steamroom from '../../assets/steam-room.png';
 import bed from '../../assets/bed.png';
 
+import image from '../../assets/apresentacao.jpeg';
+
 import './styles.css';
-import { ButtonContact } from '../ButtonContact';
 
 export function Presentation() {
   return (
     <div className="container" style={{ marginTop: 64 }}>
       <div className="row">
         <div className="col-md-6 col-sm-12">
-          <h3 style={{ fontWeight: 'bold' }}>A experiência de se conectar com a natureza</h3>
+          <h3 style={{ fontWeight: 'bold' }}>BELEZA, PAZ, TRANQUILIDADE E ESTRUTURA</h3>
           <div>
-            Parágrafo (Curto) - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Além de um ótimo lugar de lazer e descanso, a estrutura é planejada para receber 
+            com excelência e flexibilidade os mais diversificados eventos, como: casamentos, 
+            formaturas, aniversários, eventos empresariais, confraternizações, entre outros.  
           </div>
           <div className="row" style={{ marginTop: 16 }}>
             <div className="col-6">
@@ -34,14 +37,14 @@ export function Presentation() {
               <Item src={parking} text="Estacionamento" />
             </div>
           </div>
-          <ButtonContact />
         </div>
 
         <div className="col-md-6 col-sm-12">
           <img
             className="rounded img-fluid"
-            src="https://picsum.photos/1000/1000"
-            alt="Imagem de exemplo" />
+            style={{ width: '100%', maxHeight: 500, objectFit: 'cover', objectPosition: 'center' }}
+            src={image}
+            alt="Imagem de apresentação" />
         </div>
       </div>
     </div>

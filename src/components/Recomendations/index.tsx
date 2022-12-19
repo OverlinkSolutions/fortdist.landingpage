@@ -3,7 +3,7 @@ import star from '../../assets/star.png';
 
 export function Recomendations() {
   return (
-    <div className="external-container">
+    <div id="recomendations" className="external-container">
       <div className="container">
         <h4 style={{ fontWeight: 'bold', marginBottom: 24 }}>O que nossos clientes dizem</h4>
         <div className="row">

@@ -4,6 +4,7 @@ import "./styles.css";
 import Logo from "../../assets/logo_horizontal.png";
 import MenuIcon from '../../assets/menu.svg';
 import { useState, useEffect } from 'react';
+import whatsapp from '../../assets/whatsapp.png';
 
 function getWindowDimensions() {
 	const { innerWidth: width, innerHeight: height } = window;
@@ -28,45 +29,52 @@ function useWindowDimensions() {
 	return windowDimensions;
 }
 
-function ItemDesktop(props: { direction: string, /* handleHeaderClick: (pos: number) => void */} ) {
+function ItemDesktop(props: { direction: string } ) {
+	
 	return (
-		<div style={{ display: 'flex', flexDirection: props.direction as any }}>
-			<span onClick={() => null} className="header-item-container">SEÇÃO</span>
-			<span onClick={() => null} className="header-item-container">SEÇÃO</span>
-			<span onClick={() => null} className="header-item-container">SEÇÃO</span>
-			<span onClick={() => null} className="header-item-container">SEÇÃO</span>
-			<span onClick={() => null} className="header-item-container">SEÇÃO</span>
+		<div style={{ display: 'flex', flexDirection: props.direction as any, position: 'relative' }}>
+			<button
+			style={{
+				backgroundImage: 'linear-gradient(to right, #ffb347 0%, #ffcc33  51%, #ffb347  100%)',
+				color: 'white',
+				fontWeight: 'bold'
+			}} 
+			className="btn">
+				<img src={whatsapp} style={{ width: 25, marginRight: 8 }} />
+				FALE CONOSCO
+			</button>
 		</div>
 	);
 }
 
-interface HeaderProps {
-	//handleHeaderClick: (pos: number) => void;
-}
-
-export default function Header(props: HeaderProps) {
+export default function Header() {
 	const { width } = useWindowDimensions();
 	const [menuOpen, setMenuOpen] = useState(false);
 
 	return (
-		<div className="header-container">
-			<div className="container">
-				<div style={{ display: "flex", justifyContent: 'space-between', padding: '16px 0px', }}>
-					<div>
-						<img src={Logo} height='33' alt="Fazenda Modelo Logo" />
+		<>
+			<div className="header-container">
+				<div className="container">
+					<div style={{ display: "flex", justifyContent: 'space-between', padding: '16px 0px', }}>
+						<div>
+							<img src={Logo} height='33' alt="Fazenda Modelo Logo" />
+						</div>
+						{
+							width < 992 &&
+							<div className="menu-icon" onClick={() => setMenuOpen(!menuOpen)}>
+								<img alt="Ícone de menu" src={MenuIcon} width={25} />
+							</div>
+						}
+						{width >= 992 && <ItemDesktop direction='row' />}
 					</div>
 					{
-						width < 992 &&
-						<div className="menu-icon" onClick={() => setMenuOpen(!menuOpen)}>
-							<img alt="Ícone de menu" src={MenuIcon} width={25} />
-						</div>
+						menuOpen && width < 992 && <ItemDesktop direction='column' />
 					}
-					{width >= 992 && <ItemDesktop direction='row' /*handleHeaderClick={props.handleHeaderClick}*/ />}
 				</div>
-				{
-					menuOpen && width < 992 && <ItemDesktop direction='column' /*handleHeaderClick={props.handleHeaderClick} */ />
-				}
 			</div>
-		</div>
+			<div style={{ width: '100%', height: 65 }}>
+					{ /* Empty div to keep the content from being covered by the header */ }
+			</div>
+		</>
 	);
 }
