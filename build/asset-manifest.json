@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.78ae70d9.css",
+    "main.js": "/static/js/main.dba2ab85.js",
+    "static/media/banner1.png": "/static/media/banner1.f259aa11b8e6de437cb9.png",
+    "static/media/banner1-mobile.png": "/static/media/banner1-mobile.96734fc31ba3ae45e03b.png",
+    "static/media/card4.jpeg": "/static/media/card4.e489e1bfd550e12c8e0b.jpeg",
+    "static/media/apresentacao.jpeg": "/static/media/apresentacao.42473c59042dbf825fba.jpeg",
+    "static/media/card2.jpeg": "/static/media/card2.942936ed1f2baa269b79.jpeg",
+    "static/media/card3.jpeg": "/static/media/card3.7222b7829f116e786e3d.jpeg",
+    "static/media/banner2-mobile.jpg": "/static/media/banner2-mobile.49ac0ca87b45ef6c79c6.jpg",
+    "static/media/banner2.jpg": "/static/media/banner2.bc5aedf1d660e396e18f.jpg",
+    "static/media/logo_horizontal.png": "/static/media/logo_horizontal.38f9ca5bfcc46d6e6b39.png",
+    "static/media/card1.jpeg": "/static/media/card1.191c5aabb50c3898c76d.jpeg",
+    "static/media/instagram.png": "/static/media/instagram.046af6041ae1fffdc4a7.png",
+    "static/media/whatsapp.png": "/static/media/whatsapp.43a4918296128915afbb.png",
+    "static/media/swimming.png": "/static/media/swimming.6985c4c988cc62d3a8c1.png",
+    "static/media/steam-room.png": "/static/media/steam-room.fe8b1bc8211e1bf60c8d.png",
+    "static/media/star.png": "/static/media/star.a74b9542b459b06e0ca9.png",
+    "static/media/slider.png": "/static/media/slider.664b69b824c00b2de4c1.png",
+    "static/media/parking.png": "/static/media/parking.7d296d0caee5b2e74799.png",
+    "static/media/grill.png": "/static/media/grill.2ece4fe651c6d8439823.png",
+    "static/media/spatula.png": "/static/media/spatula.a0c72af2a7dfcca512af.png",
+    "index.html": "/index.html",
+    "static/media/menu.svg": "/static/media/menu.b5095c2581269b9ea9bb77066a04f248.svg",
+    "main.78ae70d9.css.map": "/static/css/main.78ae70d9.css.map",
+    "main.dba2ab85.js.map": "/static/js/main.dba2ab85.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.78ae70d9.css",
+    "static/js/main.dba2ab85.js"
+  ]
+}
