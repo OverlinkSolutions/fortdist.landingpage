@@ -12,9 +12,9 @@ export function MapContact() {
           <p>
             <strong>Endereço:</strong> Rodovia SE 255 KM 05, 49100-000
             <br />
-            <strong>Telefone:</strong> (79) 99999-9999
+            <strong>Telefone: </strong>
+            <a href="tel:79999683408">(79) 99968-3408</a>
             <br />
-            <strong>Email:</strong>
           </p>
           <ButtonContact />
         </div>

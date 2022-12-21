@@ -1,40 +1,42 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 
 import banner1 from '../../assets/banner1.png';
 import banner1Mobile from '../../assets/banner1-mobile.png';
-import { getWindowDimensions, isMobile } from '../../utils/dimensions';
+import banner2 from '../../assets/banner2.jpg';
+import banner2Mobile from '../../assets/banner2-mobile.jpg';
+import { getWindowDimensions } from '../../utils/dimensions';
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from 'react-responsive-carousel';
 
 import "./styles.css";
 
 export default function FrontBanner() {
 
 	function useWindowDimensions() {
-    const [windowDimensions, setWindowDimensions] = useState(getWindowDimensions());
+		const [windowDimensions, setWindowDimensions] = useState(getWindowDimensions());
 
-    useEffect(() => {
-        function handleResize() {
-            setWindowDimensions(getWindowDimensions());
-        }
+		useEffect(() => {
+			function handleResize() {
+				setWindowDimensions(getWindowDimensions());
+			}
 
-        window.addEventListener('resize', handleResize);
-        return () => window.removeEventListener('resize', handleResize);
-    }, []);
+			window.addEventListener('resize', handleResize);
+			return () => window.removeEventListener('resize', handleResize);
+		}, []);
 
-    return windowDimensions;
-}
+		return windowDimensions;
+	}
 
-const isMobile = useWindowDimensions().width < 500;
+	const isMobile = useWindowDimensions().width < 500;
 
 	return (
-		<div id="carouselSlideOnly" className='carousel slide' data-bs-ride="carousel">
-			<div className="carousel-inner">
-				<div className='carousel-item active'>
-					<img className='d-block w-100' src={isMobile ? banner1Mobile : banner1 } alt="Banner um" />
-				</div>
-				<div className='carousel-item'>
-					<img className='d-block w-100' src={banner1} alt="First Slide" />
-				</div>
+		<Carousel infiniteLoop swipeable showThumbs={false} autoPlay interval={5000} showStatus={false}>
+			<div>
+				<img className='d-block w-100' src={isMobile ? banner2Mobile : banner2} alt="Banner 2" />
 			</div>
-		</div>
+			<div>
+				<img className='d-block w-100' src={isMobile ? banner1Mobile : banner1} alt="Banner um" />
+			</div>
+		</Carousel>
 	);
 }

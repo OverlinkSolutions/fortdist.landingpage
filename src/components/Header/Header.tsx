@@ -29,20 +29,22 @@ function useWindowDimensions() {
 	return windowDimensions;
 }
 
-function ItemDesktop(props: { direction: string } ) {
-	
+function ItemDesktop(props: { direction: string }) {
+
 	return (
 		<div style={{ display: 'flex', flexDirection: props.direction as any, position: 'relative' }}>
-			<button
-			style={{
-				backgroundImage: 'linear-gradient(to right, #ffb347 0%, #ffcc33  51%, #ffb347  100%)',
-				color: 'white',
-				fontWeight: 'bold'
-			}} 
-			className="btn">
-				<img src={whatsapp} style={{ width: 25, marginRight: 8 }} />
-				FALE CONOSCO
-			</button>
+			<a style={{ textDecoration: 'none' }} href="https://api.whatsapp.com/send?phone=5579999683408&text=Olá, gostaria de alugar a fazenda!">
+				<button
+					style={{
+						backgroundImage: 'linear-gradient(to right, #ffb347 0%, #ffcc33  51%, #ffb347  100%)',
+						color: 'white',
+						fontWeight: 'bold'
+					}}
+					className="btn">
+					<img src={whatsapp} style={{ width: 25, marginRight: 8 }} />
+					FALE CONOSCO
+				</button>
+			</a>
 		</div>
 	);
 }
@@ -73,7 +75,7 @@ export default function Header() {
 				</div>
 			</div>
 			<div style={{ width: '100%', height: 65 }}>
-					{ /* Empty div to keep the content from being covered by the header */ }
+				{ /* Empty div to keep the content from being covered by the header */}
 			</div>
 		</>
 	);
