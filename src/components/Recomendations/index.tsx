@@ -48,11 +48,11 @@ function SingleRecomendation(props: RecomendationProps) {
 function FiveStars() {
   return (
     <div style={{ display: 'flex', alignItems: 'center', columnGap: 0, margin: '16px 0 8px 0' }}>
-      <img style={{ width: 25, height: 'auto' }} src={star}></img>
-      <img style={{ width: 25, height: 'auto' }} src={star}></img>
-      <img style={{ width: 25, height: 'auto' }} src={star}></img>
-      <img style={{ width: 25, height: 'auto' }} src={star}></img>
-      <img style={{ width: 25, height: 'auto' }} src={star}></img>
+      <img style={{ width: 25, height: 'auto' }} alt="Estrela" src={star}></img>
+      <img style={{ width: 25, height: 'auto' }} alt="Estrela" src={star}></img>
+      <img style={{ width: 25, height: 'auto' }} alt="Estrela" src={star}></img>
+      <img style={{ width: 25, height: 'auto' }} alt="Estrela" src={star}></img>
+      <img style={{ width: 25, height: 'auto' }} alt="Estrela" src={star}></img>
     </div>
   );
 }

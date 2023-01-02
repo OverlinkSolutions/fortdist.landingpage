@@ -1,4 +1,3 @@
-import { useRef } from "react";
 import { Cards } from "./components/Cards";
 import { Footer } from "./components/Footer";
 import FrontBanner from "./components/FrontBanner";

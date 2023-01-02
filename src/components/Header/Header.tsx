@@ -41,7 +41,7 @@ function ItemDesktop(props: { direction: string }) {
 						fontWeight: 'bold'
 					}}
 					className="btn">
-					<img src={whatsapp} style={{ width: 25, marginRight: 8 }} />
+					<img alt="FALE CONOSCO" src={whatsapp} style={{ width: 25, marginRight: 8 }} />
 					FALE CONOSCO
 				</button>
 			</a>

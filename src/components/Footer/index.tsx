@@ -14,17 +14,17 @@ export function Footer() {
           <div className="col-md-4 col-sm-12">
             <h5>Contato</h5>
             <p>
-              <img src={map_mark} width={25} /> Rodovia SE 255 KM 05, 49100-000
+              <img src={map_mark} alt="#" width={25} /> Rodovia SE 255 KM 05, 49100-000
             </p>
             <p>
-              <img src={phone} width={25} /> <a href="tel:79999683408" style={{ color: 'white' }}>(79) 99968-3408</a>
+              <img src={phone} alt="#" width={25} /> <a href="tel:79999683408" style={{ color: 'white' }}>(79) 99968-3408</a>
             </p>
           </div>
           <div className="col-md-4 col-sm-12">
             <h5>Redes Sociais</h5>
             <p>
               <a href="https://www.instagram.com/alugue_fazendamodelo/">
-                <img src={instagram} width={30} />
+                <img src={instagram} alt="#" width={30} />
               </a>
             </p>
           </div>

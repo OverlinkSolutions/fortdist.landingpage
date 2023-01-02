@@ -62,7 +62,7 @@ function Card({ src, longDescription, shortDescription, title }: CardProps) {
         src={src}
         className="img-fluid rounded"
         style={{ width: '100%', height: 400, objectFit: 'cover', objectPosition: 'center' }}
-        alt="..."
+        alt="#"
       />
       <div className="card-description">
         <h5 className="card-title">{title}</h5>

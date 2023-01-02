@@ -59,7 +59,7 @@ interface ItemProps {
 function Item(props: ItemProps) {
   return (
     <div style={{ display: 'flex', alignItems: 'center', columnGap: 8, marginBottom: 16 }}>
-      <img style={{ width: 35, height: 'auto' }} src={props.src}></img>
+      <img style={{ width: 35, height: 'auto' }} alt="#" src={props.src}></img>
       <div style={{ fontWeight: 'bold' }}>{props.text}</div>
     </div>
   )
