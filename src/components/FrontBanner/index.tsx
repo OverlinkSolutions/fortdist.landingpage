@@ -35,12 +35,6 @@ export default function FrontBanner() {
 				<img className='d-block w-100' src={isMobile ? banner2Mobile : banner2} alt="Banner 2" />
 			</div>
 			<div>
-				<img className='d-block w-100' src={isMobile ? banner2Mobile : banner2} alt="Banner 2" />
-			</div>
-			<div>
-				<img className='d-block w-100' src={isMobile ? banner2Mobile : banner2} alt="Banner 2" />
-			</div>
-			<div>
 				<img className='d-block w-100' src={isMobile ? banner1Mobile : banner1} alt="Banner um" />
 			</div>
 		</Carousel>
