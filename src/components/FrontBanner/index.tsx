@@ -32,7 +32,7 @@ export default function FrontBanner() {
 	return (
 		<Carousel infiniteLoop swipeable showThumbs={false} autoPlay interval={5000} showStatus={false}>
 			<div>
-				<img className='d-block w-100' src={isMobile ? banner2Mobile : banner2} alt="Banner 2" />
+				<img className='d-block w-100' src={isMobile ? banner2 : banner2} alt="Banner 2" />
 			</div>
 			<div>
 				<img className='d-block w-100' src={isMobile ? banner1Mobile : banner1} alt="Banner um" />
