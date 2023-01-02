@@ -2,8 +2,8 @@ import { useEffect, useState } from 'react';
 
 import banner1 from '../../assets/banner1.png';
 import banner1Mobile from '../../assets/banner1-mobile.png';
-import banner2 from '../../assets/banner2.jpg';
-import banner2Mobile from '../../assets/banner2-mobile.jpg';
+import banner2 from '../../assets/banner2.png';
+import banner2Mobile from '../../assets/banner2-mobile.png';
 import { getWindowDimensions } from '../../utils/dimensions';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
