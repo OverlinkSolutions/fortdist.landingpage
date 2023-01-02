@@ -21,8 +21,8 @@ export function MapContact() {
         <div className="col-md-8">
           <div className="mapouter">
             <div className="gmap_canvas">
-              <iframe title="Mapa para a fazenda" className="gmap_iframe" height={350} width="100%" frameBorder="0" scrolling="no" src="https://maps.google.com/maps?width=1025&amp;height=600&amp;hl=en&amp;q=Rodovia SE 255 KM 05&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
-              </iframe>
+              {/* <iframe title="Mapa para a fazenda" className="gmap_iframe" height={350} width="100%" frameBorder="0" scrolling="no" src="https://maps.google.com/maps?width=1025&amp;height=600&amp;hl=en&amp;q=Rodovia SE 255 KM 05&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+              </iframe> */}
             </div>
           </div>
 
