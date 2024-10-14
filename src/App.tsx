@@ -4,7 +4,6 @@ import FrontBanner from "./components/FrontBanner";
 import Header from "./components/Header/Header";
 import { MapContact } from "./components/MapContact";
 import { Presentation } from "./components/Presentation";
-import { Recomendations } from "./components/Recomendations";
 import Space from "./components/Space/Space";
 
 function App() {
@@ -21,7 +20,6 @@ function App() {
       <Space />
       <Presentation />
       <Cards />
-      {/* <Recomendations /> */}
       <MapContact />
       <Footer />
     </div>

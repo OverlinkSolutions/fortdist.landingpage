@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Move build to /var/www/reservafazendamodelo
+      - name: Move build to /var/www/fortdist
         run: |
-          rm -rf /var/www/reservafazendamodelo/*
-          mv build/* /var/www/reservafazendamodelo/
+          rm -rf /var/www/fortdist/*
+          mv build/* /var/www/fortdist/
