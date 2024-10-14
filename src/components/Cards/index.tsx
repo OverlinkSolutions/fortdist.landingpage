@@ -1,7 +1,7 @@
-import img1 from "../../assets/card1.jpeg";
-import img2 from "../../assets/card2.jpeg";
-import img3 from "../../assets/card3.jpeg";
-import img4 from "../../assets/card4.jpeg";
+import img1 from "../../assets/logo.png";
+import img2 from "../../assets/logo.png";
+import img3 from "../../assets/logo.png";
+import img4 from "../../assets/logo.png";
 
 import './styles.css';
 
@@ -33,14 +33,6 @@ export function Cards() {
             longDescription="Um cantinho dedicado a orações e agradecimentos. 
             Nada melhor que estar em um lugar de paz e ir até a capela prestar graças à quem lhe deu a oportunidade de estar feliz e com saude."
             src={img3}
-          />
-        </div>
-        <div className="col-md-3 col-sm-6 col-12">
-          <Card
-            title="Balanço de Madeira"
-            shortDescription="Um ótimo lugar para descansar e aproveitar a vista."
-            longDescription="Um ótimo lugar para descansar e aproveitar a vista da piscina, além de gerar fotos lindas."
-            src={img4}
           />
         </div>
       </div>

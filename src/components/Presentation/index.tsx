@@ -1,40 +1,34 @@
-import swimming from '../../assets/swimming.png';
-import spatula from '../../assets/spatula.png';
-import grill from '../../assets/grill.png';
-import parking from '../../assets/parking.png';
-import slider from '../../assets/slider.png';
-import fountain from '../../assets/fountain.png';
-import steamroom from '../../assets/steam-room.png';
-import bed from '../../assets/bed.png';
+import image from "../../assets/presentation.png";
 
-import image from '../../assets/apresentacao.jpeg';
-
-import './styles.css';
+import "./styles.css";
 
 export function Presentation() {
   return (
     <div className="container" style={{ marginTop: 64 }}>
       <div className="row">
         <div className="col-md-6 col-sm-12">
-          <h3 style={{ fontWeight: 'bold' }}>BELEZA, PAZ, TRANQUILIDADE E ESTRUTURA</h3>
+          <h3 style={{ fontWeight: "bold" }}>
+            A melhor distribuidora do nordeste!
+          </h3>
           <div>
-            Além de um ótimo lugar de lazer e descanso, a estrutura é planejada para receber 
-            com excelência e flexibilidade os mais diversificados eventos, como: casamentos, 
-            formaturas, aniversários, eventos empresariais, confraternizações, entre outros.  
+            Na Fort Distribuidora, oferecemos uma linha completa de materiais de
+            construção para atender suas necessidades, desde pequenas reformas
+            até grandes obras. Garantimos que você receba o que precisa, quando
+            e onde for necessário.
           </div>
           <div className="row" style={{ marginTop: 16 }}>
             <div className="col-6">
-              <Item src={swimming} text="Piscina" />
+              {/* <Item src={swimming} text="Piscina" />
               <Item src={grill} text="Área da Churrasqueira" />
               <Item src={steamroom} text="Sauna" />
-              <Item src={slider} text="Playground" />
+              <Item src={slider} text="Playground" /> */}
             </div>
 
             <div className="col-6">
-              <Item src={fountain} text="Chafariz" />
+              {/* <Item src={fountain} text="Chafariz" />
               <Item src={bed} text="10 Quartos" />
               <Item src={spatula} text="Cozinha" />
-              <Item src={parking} text="Estacionamento" />
+              <Item src={parking} text="Estacionamento" /> */}
             </div>
           </div>
         </div>
@@ -42,25 +36,17 @@ export function Presentation() {
         <div className="col-md-6 col-sm-12">
           <img
             className="rounded img-fluid"
-            style={{ width: '100%', maxHeight: 500, objectFit: 'cover', objectPosition: 'center' }}
+            style={{
+              width: "100%",
+              maxHeight: 500,
+              objectFit: "cover",
+              objectPosition: "center",
+            }}
             src={image}
-            alt="Imagem de apresentação" />
+            alt="Imagem de apresentação"
+          />
         </div>
       </div>
     </div>
   );
-}
-
-interface ItemProps {
-  src: string;
-  text: string;
-}
-
-function Item(props: ItemProps) {
-  return (
-    <div style={{ display: 'flex', alignItems: 'center', columnGap: 8, marginBottom: 16 }}>
-      <img style={{ width: 35, height: 'auto' }} alt="#" src={props.src}></img>
-      <div style={{ fontWeight: 'bold' }}>{props.text}</div>
-    </div>
-  )
 }

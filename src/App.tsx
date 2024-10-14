@@ -5,16 +5,23 @@ import Header from "./components/Header/Header";
 import { MapContact } from "./components/MapContact";
 import { Presentation } from "./components/Presentation";
 import { Recomendations } from "./components/Recomendations";
+import Space from "./components/Space/Space";
 
 function App() {
-
   return (
-    <div className="App">
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+      }}
+    >
       <Header />
       <FrontBanner />
+      <Space />
       <Presentation />
       <Cards />
-      <Recomendations />
+      {/* <Recomendations /> */}
       <MapContact />
       <Footer />
     </div>
