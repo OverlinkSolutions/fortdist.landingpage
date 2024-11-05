@@ -55,7 +55,7 @@ export function Cards() {
       <div className="row">
         {items.map((item, index) => (
           <div
-            className="col col-sm-6 col-md-4 col-lg-4 g-2"
+            className="col-6 col-sm-6 col-md-4 col-lg-4 g-2"
           >
             <div key={index} className="tyre-card border border-light">
               <img

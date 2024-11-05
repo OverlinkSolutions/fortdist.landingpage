@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ebf782a3.css",
-    "main.js": "/static/js/main.684fdb40.js",
+    "main.js": "/static/js/main.330f943c.js",
     "static/media/presentation.png": "/static/media/presentation.e9bd69996ac73d68b667.png",
     "static/media/banner1.png": "/static/media/banner1.4855881eceb4fde28bc8.png",
     "static/media/dryko.png": "/static/media/dryko.a897eab61472acc5e3a5.png",
@@ -14,10 +14,10 @@
     "static/media/whatsapp.png": "/static/media/whatsapp.e84777018ac3307894fd.png",
     "index.html": "/index.html",
     "main.ebf782a3.css.map": "/static/css/main.ebf782a3.css.map",
-    "main.684fdb40.js.map": "/static/js/main.684fdb40.js.map"
+    "main.330f943c.js.map": "/static/js/main.330f943c.js.map"
   },
   "entrypoints": [
     "static/css/main.ebf782a3.css",
-    "static/js/main.684fdb40.js"
+    "static/js/main.330f943c.js"
   ]
 }
