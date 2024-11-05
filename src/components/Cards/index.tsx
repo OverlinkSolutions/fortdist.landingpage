@@ -3,22 +3,32 @@ import "./styles.css";
 
 const items = [
   {
-    thumb: "logo",
-    name: "Pneu 1",
+    thumb: "avant",
+    name: "Avant",
     price: 100,
   },
   {
-    thumb: "logo",
+    thumb: "dryko",
     name: "Pneu 2",
     price: 200,
   },
   {
-    thumb: "logo",
+    thumb: "herc",
     name: "Pneu 3",
     price: 300,
   },
   {
-    thumb: "logo",
+    thumb: "hidrotintas",
+    name: "Pneu 4",
+    price: 400,
+  },
+  {
+    thumb: "krona",
+    name: "Pneu 4",
+    price: 400,
+  },
+  {
+    thumb: "soqualidade",
     name: "Pneu 4",
     price: 400,
   },
@@ -42,58 +52,23 @@ export function Cards() {
       <h3 style={{ fontWeight: "bold", fontSize: 48 }}>
         Produtos em destaque!
       </h3>
-      <div className="row g-0 col-sm-12 col-md-10">
-        <div className="row g-8 col-sm-12 col-md-10">
-          {items.map((item, index) => (
-            <div
-              className="col-6 col-sm-6 col-md-4 col-lg-3"
-              style={{ display: "flex" }}
-            >
-              <div key={index} className="tyre-card border border-light">
-                <img
-                  style={{
-                    maxWidth: "100%",
-                    maxHeight: 200,
-                    height: 200,
-                    objectFit: "contain",
-                  }}
-                  src={images[item.thumb + ".png"]}
-                  alt={item.name}
-                />
-                <span className="tyre-title">{item.name}</span>
-                <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    rowGap: 8,
-                  }}
-                >
-                  <span className="tyre-price">
-                    {item.price.toLocaleString("pt-BR", {
-                      style: "currency",
-                      currency: "BRL",
-                    })}
-                  </span>
-                </div>
-                <a
-                  target="_blank"
-                  rel="noreferrer"
-                  style={{ textDecoration: "none" }}
-                  href={`https://api.whatsapp.com/send?phone=5579988257474&text=Olá, gostaria de comprar o ${item.name}.`}
-                >
-                  <button className="tyre-buy-btn">
-                    <img
-                      alt="FALE CONOSCO"
-                      src={whatsapp}
-                      className="tyre-buy-btn-icon"
-                    />
-                    COMPRAR
-                  </button>
-                </a>
-              </div>
+      <div className="row">
+        {items.map((item, index) => (
+          <div
+            className="col col-sm-6 col-md-4 col-lg-4 g-2"
+          >
+            <div key={index} className="tyre-card border border-light">
+              <img
+                style={{
+                  maxWidth: "100%",
+                  objectFit: "contain",
+                }}
+                src={images[item.thumb + ".png"]}
+                alt={item.name}
+              />
             </div>
-          ))}
-        </div>
+          </div>
+        ))}
       </div>
     </div>
   );

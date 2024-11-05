@@ -1,17 +1,23 @@
 {
   "files": {
     "main.css": "/static/css/main.ebf782a3.css",
-    "main.js": "/static/js/main.a7bfd77a.js",
+    "main.js": "/static/js/main.684fdb40.js",
     "static/media/presentation.png": "/static/media/presentation.e9bd69996ac73d68b667.png",
     "static/media/banner1.png": "/static/media/banner1.4855881eceb4fde28bc8.png",
+    "static/media/dryko.png": "/static/media/dryko.a897eab61472acc5e3a5.png",
+    "static/media/hidrotintas.png": "/static/media/hidrotintas.bc5c8f101e1811593398.png",
+    "static/media/avant.png": "/static/media/avant.c4fe8a3a01c142e3f742.png",
+    "static/media/herc.png": "/static/media/herc.dfeeb15f540ba3d32fe9.png",
+    "static/media/krona.png": "/static/media/krona.5ffd50ae5bf0860823a4.png",
+    "static/media/soqualidade.png": "/static/media/soqualidade.4fbecb8ef99ed86bb863.png",
     "static/media/instagram.png": "/static/media/instagram.2a3acc19c1f5de8d9054.png",
     "static/media/whatsapp.png": "/static/media/whatsapp.e84777018ac3307894fd.png",
     "index.html": "/index.html",
     "main.ebf782a3.css.map": "/static/css/main.ebf782a3.css.map",
-    "main.a7bfd77a.js.map": "/static/js/main.a7bfd77a.js.map"
+    "main.684fdb40.js.map": "/static/js/main.684fdb40.js.map"
   },
   "entrypoints": [
     "static/css/main.ebf782a3.css",
-    "static/js/main.a7bfd77a.js"
+    "static/js/main.684fdb40.js"
   ]
 }
