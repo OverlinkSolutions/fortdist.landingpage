@@ -1,4 +1,23 @@
-         
+.title {
+  font-size: 2rem;
+  color: #0D0D0D;
+  word-break: break-all;
+  font-weight: bold;
+  text-align: left;
+  width: 100%;
+}
+
+.description {
+  font-size: 1rem;
+  color: #666666;
+}
+
+@media screen and (width < 768px) {
+  .title {
+    text-align: center;
+  }
+}
+    
 .btn-grad {
   background-image: linear-gradient(to right, #ffb347 0%, #ffcc33  51%, #ffb347  100%);
   padding: 15px 45px;

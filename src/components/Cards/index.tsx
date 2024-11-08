@@ -5,32 +5,26 @@ const items = [
   {
     thumb: "avant",
     name: "Avant",
-    price: 100,
   },
   {
     thumb: "dryko",
-    name: "Pneu 2",
-    price: 200,
+    name: "Dryko",
   },
   {
     thumb: "herc",
-    name: "Pneu 3",
-    price: 300,
+    name: "Herc",
   },
   {
     thumb: "hidrotintas",
-    name: "Pneu 4",
-    price: 400,
+    name: "Hidrotintas",
   },
   {
     thumb: "krona",
-    name: "Pneu 4",
-    price: 400,
+    name: "Krona",
   },
   {
     thumb: "soqualidade",
-    name: "Pneu 4",
-    price: 400,
+    name: "Só Qualidade",
   },
 ];
 
@@ -48,8 +42,8 @@ const images = importAll(
 
 export function Cards() {
   return (
-    <div className="container" style={{ marginTop: 64 }}>
-      <h3 style={{ fontWeight: "bold", fontSize: 48 }}>
+    <div className="container" id="produtos" style={{ marginTop: 64 }}>
+      <h3 style={{ fontWeight: "bold" }}>
         Produtos em destaque!
       </h3>
       <div className="row">

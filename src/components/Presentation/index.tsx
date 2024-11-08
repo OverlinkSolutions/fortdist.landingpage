@@ -5,15 +5,12 @@ import "./styles.css";
 export function Presentation() {
   return (
     <div className="container" style={{ marginTop: 64 }}>
-      <div className="row">
-        <div className="col-md-6 col-sm-12">
-          <h3 style={{ fontWeight: "bold", fontSize: 48 }}>
+      <div className="row g-4">
+        <div className="col-md-6 col-sm-12 d-flex flex-column align-items-center justify-content-center ">
+          <h3 className="title">
             A melhor distribuidora do nordeste!
           </h3>
-          <div style={{
-            fontSize: 24,
-            marginTop: 16,
-          }}>
+          <div className="description">
             Na Fort Distribuidora, oferecemos uma linha completa de materiais de
             construção para atender suas necessidades, desde pequenas reformas
             até grandes obras. Garantimos que você receba o que precisa, quando
@@ -26,7 +23,7 @@ export function Presentation() {
             className="rounded img-fluid"
             style={{
               width: "100%",
-              maxHeight: 500,
+              maxHeight: 350,
               objectFit: "cover",
               objectPosition: "center",
             }}

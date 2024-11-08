@@ -2,7 +2,7 @@ import whatsapp from '../assets/whatsapp.png';
 
 export function ButtonContact() {
   return (
-    <a style={{ textDecoration: 'none' }} href="https://api.whatsapp.com/send?phone=5579999683408&text=Olá, gostaria de alugar a fazenda!">
+    <a style={{ textDecoration: 'none' }} href="https://api.whatsapp.com/send?phone=5579999614009">
       <button
       type="button"
       className="btn btn-grad w-100 mt-2 mb-2"

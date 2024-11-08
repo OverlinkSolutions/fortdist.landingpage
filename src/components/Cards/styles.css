@@ -22,33 +22,6 @@
   color: #404142;
   letter-spacing: 0px;
 }
-
-.tyre-price {
-  font-weight: 700;
-  font-size: 28px;
-  line-height: 20px;
-  color: #404142;
-}
-
-.tyre-buy-btn {
-  background: #1AB83F;
-  color: white;
-  font-weight: bold;
-  width: 100%;
-  padding: 6px 12px;
-  border-radius: 0.375rem;
-  transition: 0.5s;
-}
-
-.tyre-buy-btn:hover {
-  background: #0b8628;
-}
-
-.tyre-buy-btn-icon {
-  width: 22px;
-  margin-right: 8px;
-}
-
 .tyre-btn-background-selected {
   background: #1AB83F;
   color: #fff;

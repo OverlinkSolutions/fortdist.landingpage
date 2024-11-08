@@ -50,7 +50,7 @@ export default function Header() {
             </div>
               <a
                 style={{ textDecoration: "none" }}
-                href="https://api.whatsapp.com/send?phone=5579999683408&text=Olá, gostaria de alugar a fazenda!"
+                href="https://api.whatsapp.com/send?phone=5579999614009"
               >
                 <button
                   style={{

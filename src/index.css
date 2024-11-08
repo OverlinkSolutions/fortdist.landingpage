@@ -1,45 +1,27 @@
 * {
-  padding:0;
-  margin:0;
-  vertical-align:baseline;
-  list-style:none;
-  border:0
+  padding: 0;
+  margin: 0;
+  vertical-align: baseline;
+  list-style: none;
+  border: 0
 }
 
 body {
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Roboto', 'Oxygen',
+  font-family: 'Inter', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-size: 16px;
-  font-scale: 1.2;
   background-color: white;
   color: black;
 }
 
 h1 {
-  font-size: 57.33px;
+  font-size: 5.9vw;
 }
 
 h2 {
-  font-size: 47.78px;
-}
-
-h3 {
-  font-size: 39.81px;
-}
-
-h4 {
-  font-size: 33.17px;
-}
-
-h5 {
-  font-size: 27.65px;
-}
-
-h6 {
-  font-size: 23.06px;
+  font-size: 3.0vh;
 }

@@ -1,34 +1,51 @@
-import instagram from '../../assets/instagram.png';
-import map_mark from '../../assets/map_mark.png';
-import phone from '../../assets/phone.png';
-import Logo from '../../assets/logo.png';
+import instagram from "../../assets/instagram.png";
+import map_mark from "../../assets/map_mark.png";
+import phone from "../../assets/phone.png";
+import Logo from "../../assets/logo.png";
 
 export function Footer() {
   return (
-    <div className="footer" style={{ color: 'white', width: '100%', backgroundColor: '#000151', padding: '32px 0px' }}>
-      <div className="container">
-        <div className="row">
-            <div>
-              <img src={Logo} height='33' alt="Fazenda Modelo Logo" />
-            </div>
-          <div className="col-md-4 col-sm-12">
-            <h5>Contato</h5>
-            <p>
-              <img src={map_mark} alt="#" width={25} /> Avenida Otoniel Dória, 521 - Centro, Itabaiana SE, 49500-000
-            </p>
-            <p>
-              <img src={phone} alt="#" width={25} /> <a href="tel:79999683408" style={{ color: 'white' }}>(79) 99968-3408</a>
-            </p>
-          </div>
-          <div className="col-md-4 col-sm-12">
-            <h5>Redes Sociais</h5>
-            <p>
-              <a href="https://www.instagram.com/alugue_fazendamodelo/">
-                <img src={instagram} alt="#" width={30} />
-              </a>
-            </p>
-          </div>
+    <div
+      className="footer"
+      style={{
+        color: "white",
+        width: "100%",
+        backgroundColor: "#000151",
+        padding: "32px 0px",
+      }}
+    >
+      <div
+        className="container"
+        style={{
+          display: "flex",
+          alignItems: "center",
+          flexDirection: "column",
+          gap: 32
+        }}
+      >
+        <div>
+          <img src={Logo} height="50" alt="Logomarca da Fort Distribuidora" />
         </div>
+        <div style={{ display: "flex", gap: 16, fontWeight: "600" }}>
+          <a href="#produtos" style={{ color: "white", textDecoration: 'none' }}>
+            PRODUTOS
+          </a>
+          <a
+            href="tel:79999614009"
+            style={{ color: "white", textDecoration: "none" }}
+          >
+            CONTATO
+          </a>
+          <a
+            href="https://www.google.com/maps/place/Av.+Otoniel+D%C3%B3ria,+521+-+Centro,+Itabaiana+-+SE,+49500-000,+Brazil/@-10.6862056,-37.4361884,16z/data=!4m6!3m5!1s0x70ffa844bec0c97:0x774705f49f618b05!8m2!3d-10.6857257!4d-37.4325072!16s%2Fg%2F11h71jl42z?hl=en&entry=ttu&g_ep=EgoyMDI0MTEwNS4wIKXMDSoASAFQAw%3D%3D"
+            style={{ color: "white", textDecoration: "none" }}
+          >
+            LOCALIZAÇÃO
+          </a>
+        </div>
+        <a href="https://www.instagram.com/fortdist/">
+          <img src={instagram} alt="#" width={30} />
+        </a>
       </div>
     </div>
   );

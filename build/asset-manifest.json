@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.ebf782a3.css",
-    "main.js": "/static/js/main.330f943c.js",
-    "static/media/presentation.png": "/static/media/presentation.e9bd69996ac73d68b667.png",
+    "main.css": "/static/css/main.7e9d3bbf.css",
+    "main.js": "/static/js/main.4da8b31e.js",
+    "static/media/presentation.png": "/static/media/presentation.9e2d268efca62ada9af4.png",
     "static/media/banner1.png": "/static/media/banner1.4855881eceb4fde28bc8.png",
     "static/media/dryko.png": "/static/media/dryko.a897eab61472acc5e3a5.png",
     "static/media/hidrotintas.png": "/static/media/hidrotintas.bc5c8f101e1811593398.png",
@@ -12,12 +12,16 @@
     "static/media/soqualidade.png": "/static/media/soqualidade.4fbecb8ef99ed86bb863.png",
     "static/media/instagram.png": "/static/media/instagram.2a3acc19c1f5de8d9054.png",
     "static/media/whatsapp.png": "/static/media/whatsapp.e84777018ac3307894fd.png",
+    "static/media/garden-work.svg": "/static/media/garden-work.8bc50c30cb446a84ee75753d4f727293.svg",
+    "static/media/wheelbarrow.svg": "/static/media/wheelbarrow.b8a497c83f57743bfd25d58e3ce800f1.svg",
+    "static/media/electricity.svg": "/static/media/electricity.322f2bedad6e12e061a41f9788637ddb.svg",
+    "static/media/plumbering.svg": "/static/media/plumbering.d986c7575c733414c8ff36b4704af2af.svg",
     "index.html": "/index.html",
-    "main.ebf782a3.css.map": "/static/css/main.ebf782a3.css.map",
-    "main.330f943c.js.map": "/static/js/main.330f943c.js.map"
+    "main.7e9d3bbf.css.map": "/static/css/main.7e9d3bbf.css.map",
+    "main.4da8b31e.js.map": "/static/js/main.4da8b31e.js.map"
   },
   "entrypoints": [
-    "static/css/main.ebf782a3.css",
-    "static/js/main.330f943c.js"
+    "static/css/main.7e9d3bbf.css",
+    "static/js/main.4da8b31e.js"
   ]
 }
