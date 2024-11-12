@@ -20,15 +20,21 @@ export function Footer() {
           display: "flex",
           alignItems: "center",
           flexDirection: "column",
-          gap: 32
+          gap: 32,
         }}
       >
         <div>
           <img src={Logo} height="50" alt="Logomarca da Fort Distribuidora" />
         </div>
-        <div style={{ display: "flex", gap: 16, fontWeight: "600" }}>
-          <a href="#produtos" style={{ color: "white", textDecoration: 'none' }}>
+        <div style={{ display: "flex", gap: 16, fontWeight: "600", flexWrap: 'wrap', alignItems: 'center', justifyContent: 'center' }}>
+          <a
+            href="#produtos"
+            style={{ color: "white", textDecoration: "none" }}
+          >
             PRODUTOS
+          </a>
+          <a href="#marcas" style={{ color: "white", textDecoration: "none" }}>
+            MARCAS
           </a>
           <a
             href="tel:79999614009"
@@ -43,8 +49,10 @@ export function Footer() {
             LOCALIZAÇÃO
           </a>
         </div>
-        <a href="https://www.instagram.com/fortdist/">
+        <div style={{ height: 1, backgroundColor: "white", width: "100%" }} />
+        <a href="https://www.instagram.com/fortdist/" style={{ textDecoration: 'none', color: "white", fontWeight: '700' }}>
           <img src={instagram} alt="#" width={30} />
+          <span> Instagram</span>
         </a>
       </div>
     </div>

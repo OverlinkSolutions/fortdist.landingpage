@@ -1,3 +1,4 @@
+import Brands from "./components/Brands";
 import { Cards } from "./components/Cards";
 import { Footer } from "./components/Footer";
 import FrontBanner from "./components/FrontBanner";
@@ -22,6 +23,7 @@ function App() {
       <Presentation />
       <Materials />
       <Cards />
+      <Brands />
       <MapContact />
       <Footer />
     </div>

@@ -7,9 +7,9 @@ export function MapContact() {
       id="localizacao"
       style={{ marginTop: 64, marginBottom: 64, overflow: "hidden" }}
     >
+      <h3 style={{ fontWeight: "bold" }}>Venha nos visitar</h3>
       <div className="row">
         <div className="col-md-4 pr-2">
-          <h4 style={{ fontWeight: "bold" }}>Venha nos visitar</h4>
           <div style={{ fontSize: 11.11 }}>NOSSO ENDEREÇO</div>
           <div>
             Avenida Otoniel Dória, 521 - Centro, Itabaiana SE, 49500-000
