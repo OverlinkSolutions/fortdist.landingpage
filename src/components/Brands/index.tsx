@@ -22,6 +22,7 @@ export default function Brands() {
         interval={2500}
         swipeable
         showStatus={false}
+        showThumbs={false}
       >
         <div className="row g-4">
           <div className="col-6 col-md-3">
