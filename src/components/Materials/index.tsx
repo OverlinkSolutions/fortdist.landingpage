@@ -1,4 +1,4 @@
-import { ReactComponent as GardenWork } from "../../assets/garden-work.svg";
+import { ReactComponent as DoorLock } from "../../assets/door-lock.svg";
 import { ReactComponent as WheelBarrow } from "../../assets/wheelbarrow.svg";
 import { ReactComponent as Electricity } from "../../assets/electricity.svg";
 import { ReactComponent as Plumbering } from "../../assets/plumbering.svg";
@@ -11,18 +11,18 @@ export default function Materials() {
         <div className="col-6 col-md-3 d-flex">
           <div className="card-material border p-8 d-flex gap-3 flex-column justify-content-center align-items-center">
             <WheelBarrow className="card-icon" fill="#ff0000" />
-            <span className="card-title">Alvenaria</span>
+            <span className="card-title">Ferramentas</span>
             <span className="text-center description">
-              Cimento, blocos e tijolos para a construção da estrutura.
+              Todos os tipos de ferramentas manuais e elétricas.
             </span>
           </div>
         </div>
         <div className="col-6 col-md-3 d-flex">
           <div className="card-material border p-8 d-flex gap-3 flex-column justify-content-center align-items-center">
-            <GardenWork className="card-icon" fill="#ff0000" />
+            <DoorLock className="card-icon" fill="#ff0000" />
             <span className="card-title">Ferragens</span>
             <span className="text-center card-description">
-              Ferramentas para o trabalho de alvenaria e acabamentos.
+              Fechaduras, cadeados, ferrolhos e parafusos.
             </span>
           </div>
         </div>

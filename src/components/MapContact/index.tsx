@@ -1,4 +1,6 @@
 import { ButtonContact } from "../ButtonContact";
+import { ReactComponent as Map } from "../../assets/map-pin.svg";
+import { ReactComponent as Phone } from "../../assets/phone.svg";
 
 export function MapContact() {
   return (
@@ -11,10 +13,15 @@ export function MapContact() {
       <div className="row">
         <div className="col-md-4 pr-2">
           <div style={{ fontSize: 11.11 }}>NOSSO ENDEREÇO</div>
-          <div>
-            Avenida Otoniel Dória, 521 - Centro, Itabaiana SE, 49500-000
-            <br />
-            <a href="tel:79999614009">(79) 99961-4009</a>
+          <div style={{ display: "flex", flexDirection: "column", gap: 16 }}>
+            <div style={{ display: "flex", gap: 8 }}>
+              <Map width={30} height={30} fill="#000151" />
+              Avenida Otoniel Dória, 521 - Centro, Itabaiana SE, 49500-000
+            </div>
+            <div style={{ display: "flex", gap: 8 }}>
+              <Phone width={30} height={30} />
+              <a href="tel:79999614009">(79) 99961-4009</a>
+            </div>
             <br />
           </div>
           <ButtonContact />

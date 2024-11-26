@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.15ba5df5.css",
-    "main.js": "/static/js/main.f3157ee7.js",
+    "main.js": "/static/js/main.f1c324a8.js",
     "static/media/presentation.png": "/static/media/presentation.9e2d268efca62ada9af4.png",
     "static/media/banner1.png": "/static/media/banner1.4855881eceb4fde28bc8.png",
     "static/media/dryko.png": "/static/media/dryko.a897eab61472acc5e3a5.png",
@@ -20,16 +20,18 @@
     "static/media/5.png": "/static/media/5.cfd866f3548f924b934e.png",
     "static/media/instagram.png": "/static/media/instagram.2a3acc19c1f5de8d9054.png",
     "static/media/whatsapp.png": "/static/media/whatsapp.e84777018ac3307894fd.png",
-    "static/media/garden-work.svg": "/static/media/garden-work.8bc50c30cb446a84ee75753d4f727293.svg",
+    "static/media/map-pin.svg": "/static/media/map-pin.6093ca618b604c4b08c7116886c099ea.svg",
     "static/media/wheelbarrow.svg": "/static/media/wheelbarrow.b8a497c83f57743bfd25d58e3ce800f1.svg",
     "static/media/electricity.svg": "/static/media/electricity.322f2bedad6e12e061a41f9788637ddb.svg",
+    "static/media/phone.svg": "/static/media/phone.862d5fca61235a47f1af0e475da98936.svg",
+    "static/media/door-lock.svg": "/static/media/door-lock.42f2d13ac7e2d0a430dd40b73b3ae11b.svg",
     "static/media/plumbering.svg": "/static/media/plumbering.d986c7575c733414c8ff36b4704af2af.svg",
     "index.html": "/index.html",
     "main.15ba5df5.css.map": "/static/css/main.15ba5df5.css.map",
-    "main.f3157ee7.js.map": "/static/js/main.f3157ee7.js.map"
+    "main.f1c324a8.js.map": "/static/js/main.f1c324a8.js.map"
   },
   "entrypoints": [
     "static/css/main.15ba5df5.css",
-    "static/js/main.f3157ee7.js"
+    "static/js/main.f1c324a8.js"
   ]
 }
