@@ -24,7 +24,7 @@ export function MapContact() {
             </div>
             <br />
           </div>
-          <ButtonContact />
+          {/* <ButtonContact /> */}
         </div>
         <div className="col-md-8">
           <div className="mapouter">

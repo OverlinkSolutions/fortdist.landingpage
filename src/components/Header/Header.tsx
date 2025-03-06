@@ -48,7 +48,7 @@ export default function Header() {
             <div>
               <img src={Logo} height="33" alt="Fazenda Modelo Logo" />
             </div>
-              <a
+              {/* <a
                 style={{ textDecoration: "none" }}
                 href="https://api.whatsapp.com/send?phone=5579999614009"
               >
@@ -68,7 +68,7 @@ export default function Header() {
                   />
                   FALE CONOSCO
                 </button>
-              </a>
+              </a> */}
             </div>
           </div>
         </div>	
